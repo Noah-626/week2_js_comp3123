@@ -35,9 +35,9 @@ const capitalizedColors = colors.map(capitalizeFirstLetter);
 console.log(capitalizedColors); 
 
 console.log();
-// Exercise 4
+// Exercise 5
 // Using array.proto.reduce create calculate the sum and product of a given array. 
-console.log('Exercise 4: ')
+console.log('Exercise 5: ')
 function calculateSumAndProduct(arr) 
 {
     return arr.reduce((acc, num) => {
@@ -94,3 +94,18 @@ console.log(car1.getDetails());
 
 const mySedan = new Sedan("Toyota Camry", 2020, 20000);
 console.log(mySedan.getInfo());
+
+
+console.log();
+// Exercise 4
+// Using array.proto.reduce create calculate the sum and product of a given array. 
+console.log('Exercise 4: ')
+function filterLessThanTwenty(arr) {
+    return arr.filter(num => num < 20);
+  }
+  
+  const numbersEx4 = [1, 6, 34, 30, 20, 5];
+  const filteredNumbers = filterLessThanTwenty(numbersEx4);
+  
+  console.log(filteredNumbers); 
+  
